@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+@font-face {
+    font-family: Inter;
+    src: url(/assets/fonts/static/Inter-Regular.ttf);
+  }
+  @font-face {
+    font-family: Inter-semi;
+    src: url(/assets/fonts/static/Inter-SemiBold.ttf);
+  }
+  @font-face {
+    font-family: Inter-vari;
+    src: url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+  }
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inter';
+    background-color: rgb(19, 19, 19);
+}
+
+
+.container{
+   margin: auto;
+   margin-bottom: 2rem;
+   margin-top: 9rem;
+   width: 350px;
+   height: 540px;
+   background-color: rgb(32, 32, 32);
+   border-radius: 10px;
+}
+
+.text-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.text-section h3{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.text-section p{
+    margin-bottom: 0.9rem;
+    font-size: 0.9rem;
+    color: rgb(202, 253, 81);
+}
+
+.text-section span{
+    font-size: 0.8rem;
+    color: rgb(211, 211, 211);
+}
+
+img{
+    margin-top: 2rem;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.button-section{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+button{
+    width: 280px;
+    height: 40px;
+    border: none;
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+button:hover{
+    font-weight: 900;
+    color: black;
+    background-color: rgb(202, 253, 81);
+
+}
+
+a{
+  font-size: 1rem;
+}
